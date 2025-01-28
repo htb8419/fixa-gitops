@@ -7,7 +7,7 @@ metadata:
     app: nginx
     version: "1.27.3"
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: nginx
