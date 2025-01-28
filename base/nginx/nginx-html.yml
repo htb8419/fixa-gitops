@@ -9,7 +9,7 @@ data:
         <title>Welcome to Nginx!</title>
       </head>
       <body>
-        <h1>Hello K8s!</h1>
+        <h1>Hello Argocd!</h1>
         <p>This is a simple HTML page served by Nginx on Kubernetes.</p>
       </body>
     </html>
