@@ -4,4 +4,4 @@ patches:
   - target:
       kind: ConfigMap
       name: nginx-html
-    patch: nginx-html.yml
+    patch: nginx/nginx-html.yml
