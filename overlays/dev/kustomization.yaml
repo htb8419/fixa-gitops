@@ -1,7 +1,9 @@
 metadata:
   name: "base"
   namespace: fixa
-
+bases:
+  -
 resources:
   - ../../base
-  - nginx/nginx-html.yml
+patches:
+  - path: nginx/nginx-html.yml
