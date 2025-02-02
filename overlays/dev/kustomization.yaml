@@ -1,4 +1,4 @@
 resources:
   - ../../base
 patches:
-  - path: nginx/nginx-html.yml
+  - patch: ./nginx/nginx-html.yml
