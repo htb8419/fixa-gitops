@@ -1,7 +1,5 @@
 resources:
   - ../../base
+
 patches:
-  - target:
-      kind: ConfigMap
-      name: nginx-html
-    patch: nginx/nginx-html.yml
+  - patch: nginx-html.yml

@@ -1,9 +1,12 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
 metadata:
   name: "base"
   namespace: fixa
 resources:
   - namespace.yml
   - tools/docker-registry.yml
+  - tools/grafana/grafana.yaml
   - nginx/nginx-config.yml
   - nginx/nginx-html.yml
   - nginx/deployment.yml

@@ -1,3 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: nginx-html
+  namespace: fixa
 data:
   index.html: |
     <html>
